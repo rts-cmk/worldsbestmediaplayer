@@ -1,4 +1,4 @@
-import { mediaplayer, playpause } from "./mediaplayer";
+import { mediaplayer, playpause } from "./mediaplayer.js";
 
 function togglePlay(event) {
 	if (mediaplayer.paused) {

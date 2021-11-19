@@ -13,9 +13,14 @@
 <body>
 
 	<div class="worldsbestvideoplayer">
-		<video class="mediaplayer"
-			src="/rickroll.mp4"></video>
+		<video class="mediaplayer">
+			<source src="./rickroll.mp4" type="video/mp4">
+		</video>
 		<div class="controls">
+			<div class="videoTrackerContainer">
+				<input type="range" class="videoTracker" min="0" max="0" step="1">
+				<div class="videoProgress"></div>
+			</div>
 			<button class="playpause"><i class="icon-pause"></i></button>
 			<div class="volumeContainer">
 				<i class="icon-volume-middle"></i>

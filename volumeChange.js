@@ -1,5 +1,5 @@
 import changeIcon from "/changeIcon.js";
-import { mediaplayer } from "./mediaplayer";
+import { mediaplayer } from "./mediaplayer.js";
 
 export function volumeChange(event) {
 	mediaplayer.volume = event.target.value;
